@@ -8,8 +8,10 @@ public class JavaGit2025 {
 		System.out.println(a);
 		
 		String s = "12345";
-		s.replaceAll("[1-5]", "a-e");
-		System.out.println(s);
+		String r1 = s.replaceAll("[1-5]", "*");
+		System.out.println(r1);
 			
+		String r2 = s.replace("12345", "abcd");
+		System.out.println(r2);
 	}
 }
