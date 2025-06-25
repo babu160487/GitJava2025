@@ -14,6 +14,10 @@ public class JavaGit2025 {
 
 	}
 	
+	private void method3() {
+	System.out.println("Sam curran");
+	}
+	
 	public static void main(String[] args) {
 		
 		JavaGit2025 j = new JavaGit2025();
