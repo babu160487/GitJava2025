@@ -2,6 +2,9 @@ package org.git;
 
 public class JavaGit2025 {
 	
+	
+	public static String name = "Anu";
+	
 	private void method1() {
 	System.out.println("Name");
 
@@ -26,5 +29,7 @@ public class JavaGit2025 {
 			
 		String r2 = s.replace("12345", "abcd");
 		System.out.println(r2);
+		
+		System.out.println(name);
 	}
 }
