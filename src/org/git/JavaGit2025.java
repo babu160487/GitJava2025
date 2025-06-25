@@ -6,6 +6,8 @@ public class JavaGit2025 {
 	
 		int a = 10;
 		System.out.println(a);
+		String S = "Smart Skills";
+		System.out.println(S);
 		
 		String s = "12345";
 		String r1 = s.replaceAll("[1-5]", "*");
